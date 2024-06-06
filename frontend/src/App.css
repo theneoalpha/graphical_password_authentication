@@ -1,0 +1,103 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #2f2d2d;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://as2.ftcdn.net/v2/jpg/04/23/18/83/1000_F_423188362_B6iLBKbMypBLPHT5VzOF9KtfQjpaUvLV.jpg");
+  height: 100vh;
+  border-image-repeat: round;
+}
+.text{
+  color: white;
+}
+.button{
+  display: flex;
+  flex-direction: row;
+}
+.nav-item{
+ text-decoration-line: none;
+  
+  color: white;
+}
+.nav-link {
+  text-decoration: none;
+
+  
+  color: white;
+  margin: 0 2rem;
+  
+}
+form {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 3px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #218838;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.message {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.success {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #c40519;
+  border: 1px solid #f5c6cb;
+}
